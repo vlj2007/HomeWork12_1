@@ -9,11 +9,21 @@ public class Author {
         this.surname = surname;
     }
 
+
     public String getName() {
         return this.name;
+    }
+
+    public void getName(String name) {
+        this.name = name;
     }
 
     public String getSurname() {
         return this.surname;
     }
+
+    public void getSurname(String surname) {
+        this.surname = surname;
+    }
+
 }
